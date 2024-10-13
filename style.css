@@ -1,0 +1,16 @@
+.slots{
+    position:fixed;
+    overflow: hidden;
+    animation-duration: 4s;
+    animation-delay: 0;
+    animation-fill-mode: forwards;
+}
+.p1{
+    left:33%;
+}
+.p2{
+    left:50%;
+}
+.p3{
+    left:66%;
+}
