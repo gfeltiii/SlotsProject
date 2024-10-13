@@ -14,3 +14,17 @@
 .p3{
     left:66%;
 }
+
+/*i.e. <div class=arrow><a href="..."><img src="..."></a></div>*/ 
+.arrow{
+    position: fixed;
+    left: 5%;
+    top:5%;
+    width: 75px;
+    height: 75px;
+    transition: transform .6s;
+    transition-timing-function: ease-in-out;
+}
+.arrow:hover{
+    transform: scale(2);
+}
