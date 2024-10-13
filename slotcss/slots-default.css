@@ -1,0 +1,14 @@
+.root{
+    --p1top: 10px;
+    --p2top: 10px;
+    --p3top: 10px;
+}
+.p1{
+    top:var(--p1top);
+}
+.p2{
+    top:var(--p2top);
+}
+.p3{
+    top:var(--p3top);
+}
