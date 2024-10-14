@@ -1,0 +1,121 @@
+body{
+    background-image: url(backgroundcasino.jpg);
+    background-size: cover;
+}
+h1{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    text-shadow: 3px 3px 5px red;
+}
+.slot{
+    width: 300px;
+    height: 300px;
+    border: 3px solid purple;
+}
+.slot:hover{
+    transform: scale(1.1);
+}
+.play{
+    color: white;
+    font-size: 20px;
+    margin-left: 12%;
+}
+.credits{
+    width: 300px;
+    height: 300px;
+    border: 3px solid purple;
+}
+.credits:hover{
+    transform: scale(1.1);
+}
+.creditspage{
+    color:white;
+    font-size: 20px;
+    margin-left: 18%;
+}
+.column{
+    flex: 50%;
+}
+.row{
+    display:flex;
+    margin-left: 18%;
+}
+.coins1{
+    margin-left: 0%;
+    position: relative;
+    bottom: -50px;
+    left: -50px;
+
+}
+.coins2{
+    margin-left: 0%;
+    position: relative;
+    left: -200px;
+    bottom: -50px;
+}
+.coins3{
+    margin-left: 0%;
+    position: relative;
+    bottom: -50px;
+    left: -300px;
+}
+.column2{
+    flex: 50%;
+}
+.row2{
+    display:flex;
+}
+@keyframes example{
+    from {top: 0;}
+    to {top: 1250%}
+}
+.singlecoin1{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    left: 50px
+}
+.singlecoin2{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+    left: 400px
+}
+.singlecoin3{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    left: 600px
+}
+.singlecoin4{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    left: 950px
+}
+.singlecoin5{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    animation-name: example;
+    animation-duration: 7s;
+    animation-iteration-count: infinite;
+    left: 1100px
+}
+.row3{
+    display:flex;
+}
