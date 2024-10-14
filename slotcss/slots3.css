@@ -1,14 +1,14 @@
 :root{
-    --spinp1 : -100px;  /*end of p1*/
-    --spinp2 : -100px;  /*end of p2*/
-    --spinp3 : -100px;  /*end of p3*/
-    --p1top: 10px; /*Start of p1*/
-    --p2top: 10px; /*Start of p2*/
-    --p3top: 10px; /*Start of p3*/
+    --spinp1 : -1010px;  /*end of p1*/
+    --spinp2 : -1814.2px;  /*end of p2*/
+    --spinp3 : -3428px;  /*end of p3*/
+    --p1top: -70px; /*Start of p1*/
+    --p2top: -340px; /*Start of p2*/
+    --p3top: -610px; /*Start of p3*/
 }
 @keyframes spinp1 {
     0%{
-        transform: translate(0px,0px);
+        transform: translate(0px,var(--p1top));
     }
     100%{
         transform: translate(0px,var(--spinp1));
@@ -16,7 +16,7 @@
 }
 @keyframes spinp2 {
     0%{
-        transform: translate(0px,0px);
+        transform: translate(0px,var(--p2top));
     }
     100%{
         transform: translate(0px,var(--spinp2));
@@ -24,7 +24,7 @@
 }
 @keyframes spinp3 {
     0%{
-        transform: translate(0px,0px);
+        transform: translate(0px,var(--p3top));
     }
     100%{
         transform: translate(0px,var(--spinp3));
@@ -32,13 +32,10 @@
 }
 .p1{             
     animation-name: spinp1;
-    top: var(--p1top);
 }
 .p2{
     animation-name: spinp2;
-    top: var(--p2top);
 }
 .p3{
     animation-name: spinp3;
-    top:var(--p3top);
 }

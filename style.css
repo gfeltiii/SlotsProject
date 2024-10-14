@@ -1,23 +1,28 @@
 .slots{
-    position:fixed;
+    position: absolute;
     overflow: hidden;
     animation-duration: 4s;
     animation-delay: 0;
     animation-fill-mode: forwards;
+    width: 95px;
+    z-index: -1;
 }
 .p1{
-    left:33%;
+    left:26%;
+    overflow: hidden;
 }
 .p2{
-    left:50%;
+    left:41%;
+    overflow: hidden;
 }
 .p3{
-    left:66%;
+    left:56.3%;
+    overflow: hidden;
 }
 
 /*i.e. <div class=arrow><a href="..."><img src="..."></a></div>*/ 
 .arrow{
-    position: fixed;
+    position: absolute;
     left: 5%;
     top:5%;
     width: 75px;
@@ -27,4 +32,33 @@
 }
 .arrow:hover{
     transform: scale(2);
+}
+.slotspage{
+    background-image: url("./img/slotbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 800px;
+    overflow: hidden;
+}
+.machine{
+    position: relative;
+    left:26%;
+    top: 96px;
+    overflow: hidden;
+    width: 800px;
+    height: 532px;
+}
+.slothider{
+    position: absolute;
+    left:26%;
+    top:55px;
+    z-index: -3;
+    overflow: hidden;
+}
+.lever{
+    z-index: 20;
+    position: absolute;
+    overflow: hidden;
+}
+.lever >img{
+    position: absolute;
 }
