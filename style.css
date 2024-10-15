@@ -62,3 +62,17 @@
 .lever >img{
     position: absolute;
 }
+.instructions{
+    padding:10px;
+    background-color: lightgray;
+    border-radius: 5px;
+    border: solid 2px gray;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    text-shadow: 3px 3px 5px gray;
+    width: 200px;
+    font-size: x-large;
+    position: absolute;
+    left: 12.5%;
+    top:40%;
+}
