@@ -34,7 +34,7 @@
     transform: scale(2);
 }
 .slotspage{
-    background-image: url("./img/slotbackground.jpg");
+    background-image: url("img/slotbackground.jpg");
     background-repeat: no-repeat;
     background-size: 100% 800px;
     overflow: hidden;
