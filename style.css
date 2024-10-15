@@ -2,7 +2,6 @@
     position: absolute;
     overflow: hidden;
     animation-duration: 4s;
-    animation-delay: 0;
     animation-fill-mode: forwards;
     width: 95px;
     z-index: -1;
